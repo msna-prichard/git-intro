@@ -23,11 +23,15 @@
 				margin-left: auto;
 			}
 			.nav-links a {
-            text-decoration: none;
-            color:#000;
-			font-size: 13px;
+				text-decoration: none;
+				color:#000;
+				font-size: 13px;
 			}
-			input[type=text]{
+			.textbox input[type=text]{
+				background-image: url("img/mic.png");
+				background-position: right;
+				background-repeat: no-repeat;
+				background-size: 15px;
 				border: 1px solid #ccc;
 				border-radius: 1px;
 				padding: 10px;
@@ -37,6 +41,7 @@
 			} 
 			.img{
 				margin-top: 50px;
+				
 			} 
 			.button {
 				width:200px;
@@ -120,7 +125,7 @@
 		<div class="container">
 			<img class="img" src="img/google.png">
 			<div class="textbox mt-30">
-				<input class="search" type="text" placeholder="search" value="" />
+				<input type="text"  />
 			</div>
 			<div>
 				<button class="button">Google Search</button>
