@@ -11,36 +11,78 @@
 			}
 			
 			body{
-					margin: 20px 5px 20px 5px;
+					margin:auto;
 			}
 
 			.nav-links {
 				display: flex;
 				list-style-type: none;
 				padding: 0;
-				width: 350px;
+				width: 300px;
 				justify-content: space-between;
 				margin-left: auto;
 			}
-
+			.nav-links a {
+            text-decoration: none;
+            color:#000;
+			font-size: 13px;
+			}
+			input[type=text]{
+				border: 1px solid #ccc;
+				border-radius: 1px;
+				padding: 10px;
+				width: 500px;
+				box-shadow: #ccc 10px;
+				margin-bottom: 25px;
+			} 
+			.img{
+				margin-top: 50px;
+			} 
+			.button {
+				width:200px;
+				justify-content: space-evenly;
+				border: 1px solid #d3d3d3;
+				background: #f3f3f3;
+				color:#000;
+				margin: 2px 5px;
+				padding: 7px;
+				border-radius:2px;
+			}
+			.button:hover {
+				color: #2a2a2a;
+				border: 1px solid #bdbdbd;
+			}
+			.nig{
+				margin-top: 100px;
+				background: rgb(238, 238, 238);
+				border-bottom: #999 2px;
+			}
+			.nig a{				text-decoration: none;
+				color: rgb(124, 121, 121);
+				line-height: 10px;
+			}
 			.footer-links, .footer-links ul {
 				display: flex;
 			}
-
 			.footer-links {
 				justify-content: space-between;
+				margin-top: 0;
+				background-color: rgb(238, 238, 238);
 			}
 
 			.footer-links ul {
 				list-style-type: none;
 				padding: 0;
-				width: 350px;
+				width: 200px;
 				justify-content: space-between;
 			}
-
+			.footer-links a {
+            text-decoration: none;
+            color: rgb(124, 121, 121);
+			}
 			.container {
-				width: 500px;
-				margin: auto;
+				margin-top: 150px;
+				width: 500px auto;
 				text-align: center;
 			}
 
@@ -49,8 +91,14 @@
 				justify-content: space-evenly;
 				list-style-type: none;
 				padding: 0;
+				width: 200px;
+				margin: auto;
 			}
-
+			.lang-links a {
+				text-decoration: none;
+				color: rgb(71, 74, 241);
+				font-size: 15px;
+			}
 			.mt-30 {
 				margin-top: 30px;
 			}
@@ -88,7 +136,7 @@
 				</ul>
 			</div>
 		</div>
-		<footer id="footer-wrapper">
+		<footer>
 			<div class="nig">
 				<a href="#">Nigeria</a>
 			</div>
